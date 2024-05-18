@@ -1,0 +1,83 @@
+body{
+    background-color: #202020;
+    color: #fff;
+
+}
+button:hover{
+    background-color: #eea53f;
+}
+ul{
+    list-style: none;
+}
+p span,.logo span,h2 span{
+    color: #D78C23;
+    
+}
+.contener{
+    background-color: #000;
+
+}
+.nav-bar a:hover::after{
+    background-color: #eea53f;
+} 
+.home{
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    
+}
+.btn-book{
+    background-color: #D78C23;
+    color: #000;
+
+}
+.btn-book:hover{
+    background-color: #eea53f;
+}
+.btn-watch:hover{
+    color: #eea53f;
+}
+.btn-watch .boll-red{
+    border:6px solid #D78C23;
+    background-color: #D78C23;
+   
+}
+.btn-watch::after{
+    border-color: #252525;
+}
+div.boll-white{
+    background-color:#000;
+}
+.item .icon-item{
+    background-color: #202020;
+}
+.icon-item i{
+   color: #fff;
+}
+.gallery{
+    background-color: #000;
+
+}
+.c-item{
+    background-color: #000;
+}
+.c-item .icon{
+    background-color: #D78C23;
+    color: #000;
+}
+input, textarea{
+    border:2px solid #202020;
+}
+form :is(input, textarea):focus {
+    border-color: #D78C23;
+}
+form button{
+    background-color: #D78C23;
+}
+div .get ul li i{
+    color: #D78C23;
+}
+button{
+    background-color: #D78C23;
+    color: #000;
+}
